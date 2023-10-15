@@ -1,6 +1,6 @@
-<script lang="ts">
+<script lang="ts" async>
   import { onMount } from "svelte";
-  let url = "ws://localhost:8080";
+  let url = "ws://test-socket-7buj.onrender.com";
   const wss = new WebSocket(url);
   let channels: string[] = [];
   let channel_create_name = "";
