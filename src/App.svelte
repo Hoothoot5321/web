@@ -1,6 +1,6 @@
 <script lang="ts" async>
   import { onMount } from "svelte";
-  let url = "ws://test-socket-7buj.onrender.com";
+  let url = "wss://polite-swamp-wire.glitch.me/";
   const wss = new WebSocket(url);
   let channels: string[] = [];
   let channel_create_name = "";
